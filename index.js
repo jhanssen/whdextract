@@ -1,6 +1,5 @@
 const { Glob } = require("glob");
 const options = require("@jhanssen/options")("whdextract");
-const fs = require("node:fs/promises");
 const path = require("node:path");
 const { execFile } = require('node:child_process');
 
